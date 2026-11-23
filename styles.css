@@ -1,4 +1,4 @@
-/* CSS by Christina Carrasquilla, iteration by */
+/* CSS by Christina Carrasquilla, iteration by Steven Johnston*/
 
 /* ===== Color Palette ===== 
 
@@ -94,6 +94,11 @@ a:hover {
     background-color:#e2e8f0;
 }
 
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
 footer {
     background-color: #020617;
     text-align: center;
@@ -127,11 +132,11 @@ footer {
         justify-content: space-around;
         width: 100%;
     }
-    .card-row {
+    /* .card-row {
         display: flex;
         justify-content: space-between;
     }
     .card-row section {
         width: 30%;
-    }
+    } */
 }
