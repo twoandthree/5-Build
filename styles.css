@@ -17,7 +17,6 @@ body {
     margin: 0;
     background-color: #0f172a;
     color: #e2e8f0;
-    min-width:500px;
     display:grid;
     grid-template-columns:1fr;
 }
@@ -109,3 +108,30 @@ footer {
 /* target the nav and display it flex, spaceed around */
 /* target the .card-row to display flex */
 /* target the sections in .card-row with a width for 30% */
+/* Medium Sizes*/
+@media screen and (min-width:800px) {
+    body {
+    grid-template-columns:1fr 300px;
+    }
+    header,
+    nav,
+    footer {
+        grid-column: 1 / -1;
+    }
+    nav {
+        display: flex;
+        justify-content: space-around;
+    }
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .card-row {
+        display: flex;
+        justify-content: space-between;
+    }
+    .card-row section {
+        width: 30%;
+    }
+}
